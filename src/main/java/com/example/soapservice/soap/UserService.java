@@ -1,8 +1,10 @@
 package com.example.soapservice.soap;
 
-import jakarta.jws.*;
 
 
+
+import javax.jws.WebMethod;
+import javax.jws.WebService;
 import java.util.ArrayList;
 
 @WebService(serviceName = "userServiceWS")
